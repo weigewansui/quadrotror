@@ -1,0 +1,6 @@
+struct DMC_cmmd_t {
+	
+	int64_t timestamp;
+	int16_t rpm[4];
+	
+}

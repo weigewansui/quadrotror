@@ -1,0 +1,13 @@
+struct state_t {
+
+	int64_t timestamp;
+	int32_t position[3];
+	int32_t velocity[3];
+	int16_t accel[3];
+
+	int32_t angle[3];
+	int32_t angular_vel[3];
+	int32_t angular_accel[3];
+
+	int16_t rpm[4];
+}
